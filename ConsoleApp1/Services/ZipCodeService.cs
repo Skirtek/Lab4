@@ -26,6 +26,15 @@ namespace ConsoleApp1.Services
                     return ListOfCities.Bydgoszcz;
                 case "87":
                     return ListOfCities.Toruń;
+                case "00":
+                case "01":
+                    return ListOfCities.Warszawa;
+                case "30":
+                case "31":
+                    return ListOfCities.Kraków;
+                case "60":
+                case "61":
+                    return ListOfCities.Poznań;
                 default:
                     return ListOfCities.Undefined;
             }
